@@ -6,11 +6,9 @@ public class Treadmill extends Obstacle {
         super(name);
         this.length = length;
     }
-
     public int getLength() {
         return length;
     }
-
     @Override
     protected boolean move(Actions actions) {
         System.out.println("Препятствие "+ super.getName() +" Дорожка" +  " длина: " + this.length);

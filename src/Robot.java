@@ -8,10 +8,8 @@ public class Robot implements Actions {
         this.runDist = distance;
         this.heightJump = heightJump;
     }
-
     public void run(){
         System.out.println("Робот "+ this.name + "бежит "+ this.runDist);
-
     }
     public void jump(){
         System.out.println("Робот "+ this.name+ "прыгает "+ this.heightJump);
