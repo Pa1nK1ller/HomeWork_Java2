@@ -5,11 +5,9 @@ public class Wall extends Obstacle {
         super(name);
         this.height = height;
     }
-
     public int getHeight() {
         return height;
     }
-
     @Override
     protected boolean move(Actions actions) {
         System.out.println("Препятствие " + super.getName() + " Стена " + " высота " + this.height);

@@ -4,9 +4,7 @@ public abstract class Obstacle {
     public Obstacle(String name) {
         this.name = name;
     }
-
     protected abstract boolean move(Actions actions);
-
     public String getName() {
         return name;
     }
