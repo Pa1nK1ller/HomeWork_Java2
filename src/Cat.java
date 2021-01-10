@@ -8,11 +8,9 @@ public class Cat implements Actions {
         this.runDist = distance;
         this.heightJump = heightJump;
     }
-
     @Override
     public void run(){
         System.out.println("Кот "+ this.name + "бежит "+ this.runDist);
-
     }
     @Override
     public void jump(){
