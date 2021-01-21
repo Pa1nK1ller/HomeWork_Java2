@@ -8,11 +8,9 @@ public class Man implements Actions {
         this.runDist = distancem;
         this.heightJump = heightJump;
     }
-
     @Override
     public void run(){
         System.out.println("Человек "+ this.name + "бежит "+ this.runDist);
-
     }
     @Override
     public void jump(){
